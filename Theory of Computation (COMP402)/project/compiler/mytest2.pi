@@ -1,0 +1,58 @@
+
+
+const N = -100 int;
+const n2 = 2 int;
+
+var a, b, c int;
+
+func power2(i int) int {
+  return i ** n2;
+}
+
+func divid(i int, j int) real {
+  return i / j;
+}
+
+
+func foo(x int,n int, k int) int {
+  var j,i,l real;
+  
+  j = power2(x);
+  i = j + n;
+  l = divid(i,k);
+
+  writeString("The powered number is:");
+  writeInt(j);
+  writeString("\n");
+
+  writeString("The added powered number is:");
+  writeInt(j);
+  writeString("\n");
+
+  writeString("The divided added powered number is:");
+  writeReal(l);
+  writeString("\n");
+
+  return l;
+}
+
+/* Here you can see some useless lines.
+ * Just for testing the multi-line comments ...
+ */
+func begin() {
+  var x real;
+
+  writeString("\nGive 1st number to power it to 2: ");
+  a = readInt();
+  writeString("\n");
+  writeString("\nGive 2nd number to add it to the previous: ");
+  b = readReal();
+  writeString("\n");
+  writeString("\nGive 3nd number to divede it with the previous: ");
+  c = readReal();
+
+  x = foo(a,b,c) + N;
+
+  writeReal(x);
+  writeString("\n");
+}

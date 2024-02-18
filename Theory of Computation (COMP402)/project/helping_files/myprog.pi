@@ -1,0 +1,7 @@
+/* My first Pi program. File: myprog.pi */
+
+const message = "Hello world!\n" string;
+
+func begin() {
+  writeString(message);	
+}
