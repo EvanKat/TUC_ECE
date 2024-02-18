@@ -1,0 +1,154 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.04584596510872822 0.8283454249979785 0.5583386108520239 3.0000170957308647
+  position 0.1397490765441359 2.588567868819418 -1.2778439485626265
+}
+TexturedBackground {
+  texture "empty_office"
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.0206561 1.33227e-15 0.0484402
+  floorSize 1.5 1.5
+  floorAppearance Parquetry {
+    type "dark strip"
+  }
+}
+Wall {
+  translation 0.577498 1.77636e-14 -0.176054
+  name "wall(2)"
+  size 0.01 0.1 0.2
+}
+Wall {
+  translation 0.457278 4.39648e-14 0.708687
+  name "wall(23)"
+  size 0.01 0.1 0.2
+}
+Wall {
+  translation 0.363278 4.57413e-14 0.614908
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(21)"
+  size 0.01 0.1 0.2
+}
+Wall {
+  translation 0.672185 2.17605e-14 -0.0812946
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(19)"
+  size 0.01 0.1 0.2
+}
+Wall {
+  translation -0.104344 1.24345e-13 -0.160841
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(17)"
+  size 0.01 0.1 0.2
+}
+Wall {
+  translation -0.47994 6.70576e-14 0.0679786
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(15)"
+  size 0.01 0.1 0.2
+}
+Wall {
+  translation 0.0393575 1.73195e-14 -0.419765
+  name "wall(12)"
+  size 0.01 0.1 0.2
+}
+E-puck {
+  hidden position_0_0 -804.7077464579276
+  hidden position_0_1 -712.2908286564175
+  hidden linearVelocity_0 -2.3072329251966605e-08 8.07544006094478e-08 0.03718668643552962
+  hidden angularVelocity_0 -1.0945267581498731e-05 1.3389379814753249e-06 -2.272536263220596e-06
+  hidden translation_1 -0.026 0.02 0
+  hidden rotation_1 1 0 0 0.46002713894048636
+  hidden linearVelocity_1 -9.782571755696228e-09 1.8116180543293635e-07 0.03718656493319799
+  hidden angularVelocity_1 1.8593305020632453 0.0027519069479722937 -0.3038076546350559
+  hidden translation_2 0.026000000000000006 0.02 0
+  hidden rotation_2 -1 0 0 3.9922963620553698
+  hidden linearVelocity_2 -1.3680194412692928e-08 -2.3985559882756164e-08 0.0371866983875141
+  hidden angularVelocity_2 1.8593305134344134 0.002751999818595337 -0.30380761504659626
+  translation -0.4247843203698632 -5.6435361212222104e-05 0.45951510264489576
+  rotation 0.010050450479048026 -0.9999007972162378 -0.00986834188202277 -0.16197761894738605
+  name "Rat0"
+  controller "Rat0"
+}
+Wall {
+  translation -0.381283 1.77636e-14 0.506884
+  size 0.01 0.1 0.2
+}
+Wall {
+  translation 0.481347 4.4409e-14 -0.273857
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(13)"
+  size 0.01 0.1 0.2
+}
+Wall {
+  translation -0.634817 4.26327e-14 0.0655479
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(18)"
+  size 0.01 0.1 0.2
+}
+Wall {
+  translation 0.265106 4.30767e-14 0.517547
+  name "wall(11)"
+  size 0.01 0.1 0.2
+}
+Wall {
+  translation 0.0387854 4.26326e-14 -0.605865
+  name "wall(1)"
+  size 0.01 0.1 0.2
+}
+Wall {
+  translation -0.382953 4.26326e-14 0.323253
+  name "wall(4)"
+  size 0.01 0.1 0.5
+}
+Wall {
+  translation 0.238192 1.77636e-15 -0.0652419
+  name "wall(9)"
+  size 0.01 0.1 0.5
+}
+Wall {
+  translation -0.0117593 -3.06421e-14 0.248453
+  name "wall(3)"
+  size 0.01 0.1 0.8
+}
+Wall {
+  translation 0.240103 5.9952e-15 0.184552
+  rotation 0 1 0 1.5708
+  name "wall(5)"
+  size 0.01 0.1 0.5
+}
+Wall {
+  translation -0.00567401 6.88338e-15 -0.312574
+  rotation 0 1 0 1.5708
+  name "wall(7)"
+  size 0.01 0.1 0.5
+}
+Wall {
+  translation -0.480559 -6.66134e-16 -0.504181
+  rotation 0 1 0 1.5708
+  name "wall(6)"
+  size 0.01 0.1 0.5
+}
+E-puck {
+  hidden position_0_0 803.239061218336
+  hidden position_0_1 802.206780367433
+  hidden linearVelocity_0 0.016578893674563812 -1.25713492461435e-07 0.013242125097179648
+  hidden angularVelocity_0 -0.00019069670915685676 -0.578788424213979 0.00022831028552474346
+  hidden translation_1 -0.025999999999999985 0.02 0
+  hidden rotation_1 1 0 0 1.00865810065105
+  hidden linearVelocity_1 0.02834258389193083 -1.6522985612613283e-07 0.022644154719113546
+  hidden angularVelocity_1 1.1758629026896703 -0.5838300065247606 -1.47171179037153
+  hidden translation_2 0.025999999999999992 0.02 0
+  hidden rotation_2 1 0 0 2.0409389515540712
+  hidden linearVelocity_2 0.004815895253977358 1.2843299107565025e-07 0.003835410793101957
+  hidden angularVelocity_2 0.1469555804446178 -0.5788985189567063 -0.18365471866135583
+  translation -0.2147408507839968 -6.689254837636931e-05 -0.3713031474718358
+  rotation -0.000360334386992957 -0.9999997520781104 -0.0006049816916516456 2.2549445821655
+  name "Rat1"
+  controller "Rat1"
+}
